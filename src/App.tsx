@@ -17,10 +17,10 @@ function App() {
       <Header/>
         <main>
             <Container>
-              <Routes>
-                <Route path="/" element={<HomeScreen />}></Route> 
+              <Routes> 
                 {/* <Route path="/" element={<Homepage/>}></Route>  */}
                 <Route path="/login" element={<LoginScreen />}></Route>
+                <Route path="/" element={<HomeScreen />}></Route>
                 <Route path="/signup" element={<SignupScreen/>}></Route>
               </Routes>
             </Container>
